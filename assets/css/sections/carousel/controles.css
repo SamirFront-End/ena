@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .ctrls-carousel {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 11.1% 11.1% 11.1%;
+        justify-content: center;
+    }
+    .ctrl {
+        background-color: var(--colorfondonaranja) ;
+        width: 38px;
+        height: 5px;
+        margin: 20% 0;
+        border-radius: 50px;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    }
+    .activo {
+        background-color: var(--colortresoscuro);
+    }
+    .ctrl:hover {
+        cursor: pointer;
+        transform: scale(0.8, 0.8);
+        transition: all 0.2s linear;
+    }
+}

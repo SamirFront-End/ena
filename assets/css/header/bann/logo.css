@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .logo {
+        background-image: url(../../../images/patt1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+    }
+    .img-logo {
+        width: 70%;
+        
+    }
+}

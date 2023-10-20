@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .title-card {
+        width: 95%;
+        margin: auto;
+        font-family: var(--fuenteprincipal);
+        color: var(--colorcuatro);
+    }
+    .p-card {
+        width: 95%;
+        margin: 10px auto;
+        color: var(--colorcuatro);
+        font-family: var(--fuenteterciaria);
+    }
+}

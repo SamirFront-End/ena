@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .inp-search {
+        height: 28px;
+        border: none;
+        border-radius: 10px 0 0 10px;
+        padding-left: 5px;
+        font-family: var(--fuenteterciaria);
+    }
+    .inp-search:focus {
+        border: 1px solid var(--coloruno);
+        outline: none;
+    }
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .services {
+        display: grid;
+        justify-content: end;
+    }
+    .fa-circle-user {
+        height: 100%;
+        font-size: 25px;
+    }
+    .srch, .cart {
+        display: none;
+    }
+    .servis {
+        text-decoration: none;
+        color: var(--colorcinco);
+    }
+}

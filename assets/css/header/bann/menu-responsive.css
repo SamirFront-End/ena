@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .menu-responsive {
+        position: absolute;
+        top: 0;
+        width: 90%;
+        margin: 5%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}

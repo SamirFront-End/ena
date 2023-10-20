@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .contenedor-search {
+        width: 90%;
+        margin: auto;
+        padding: 10px 0;
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+}

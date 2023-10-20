@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /*>>> VARIABLES DE COLOR <<<*/
+    --coloruno: #FBC16B;
+    --colordos: #985C39;
+    --colortres: #FF7412;
+    --colorcuatro: #130100;
+    --colorcinco: #FFFFFF;
+    --colorfondomaiz: #FFFDBF;
+    --colorfondogranate: #FFCCB3;
+    --colorfondonaranja: #FFD180;
+    --colorunooscuro: #E4A659;
+    --colordososcuro: #874B30;
+    --colortresoscuro: #E5650F;
+    /*>>> VARIABLES DE FUENTE <<<*/
+    --fuenteprincipal: 'Concert One', sans-serif;
+    --fuentesecundaria: 'Bebas Neue', sans-serif;
+    --fuenteterciaria: 'Josefin Sans', sans-serif;
+}

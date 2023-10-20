@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/header/bann/bann.css">
+    <link rel="stylesheet" href="assets/css/header/bann/logo.css">
+    <link rel="stylesheet" href="assets/css/header/bann/menu.css">
+    <link rel="stylesheet" href="assets/css/header/bann/services.css">
+    <link rel="stylesheet" href="assets/css/header/bann/toggle.css">
+    <link rel="stylesheet" href="assets/css/header/bann/menu-responsive.css">
+    <link rel="stylesheet" href="assets/css/sections/search/section.css">
+    <link rel="stylesheet" href="assets/css/sections/search/contenedor.css">
+    <link rel="stylesheet" href="assets/css/sections/search/input.css">
+    <link rel="stylesheet" href="assets/css/sections/search/boton.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/section.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/carousel.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/imgs.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/texto.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/boton.css">
+    <link rel="stylesheet" href="assets/css/sections/carousel/controles.css">
+    <script src="https://kit.fontawesome.com/76750b34bb.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>ENA Firma artística</title>
+</head>
+<body>
+    <header>
+        <div class="bann">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="" class="img-logo">
+            </div>
+            <nav class="menu" id="hamb">
+                <div class="menu-header">
+                    <img src="assets/images/logo.png" alt="" class="img-menu-header">
+                </div>
+                <div class="menu-body">
+                    <a href="" class="link">Nosotros</a>
+                    <a href="" class="link">Dioramas</a>
+                    <a href="" class="link">Fuentes</a>
+                    <a href="" class="link">Figuras 3D</a>
+                </div>
+                <div class="menu-networks">
+                    <a href="" class="a-menu-networks">
+                        <i class="fa-brands i-menu-networks fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="a-menu-networks">
+                        <i class="fa-brands i-menu-networks fa-instagram"></i>
+                    </a>
+                    <a href="" class="a-menu-networks">
+                        <i class="fa-brands i-menu-networks fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="menu-footer">
+                    <p class="p-menu-footer">
+                        <i class="fa-solid i-menu-footer fa-envelope-open-text"></i>
+                        <a href="" class="a-menu-footer">
+                            contactanos.info@ena.com
+                        </a> 
+                    </p>
+                    <p class="p-menu-footer">Medellín - Colombia</p>
+                </div>
+            </nav>
+            <div class="menu-responsive">
+                <div class="toggle" id="togg-hamb">
+                    <span class="togg"></span>
+                    <span class="togg"></span>
+                    <span class="togg"></span>
+                </div>
+                <div class="services">
+                    <a href="" class="servis">
+                        <ion-icon class="srch" name="search-outline"></ion-icon>
+                    </a>
+                    <a href="" class="servis">
+                        <i class="fa-regular fa-circle-user"></i>
+                    </a>
+                    <a href="" class="servis">
+                        <ion-icon class="cart" name="cart-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search">
+        <div class="contenedor-search">
+            <input type="text" class="inp-search" placeholder="¿Que estas buscando?">
+            <a href="" class="a-search">
+                <div class="btn-search">
+                    <ion-icon class="i-search" name="search-outline"></ion-icon>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="carousel">
+        <h1 class="carousel-title">
+            ¿Qué hacemos?
+        </h1>
+        <div class="carousel-container">
+            <div class="carousel-card" id="diorama-card">
+                <div class="img-card">
+                    <img src="assets/images/diorama.png" alt="" class="image-card">
+                </div>
+                <h1 class="title-card">Dioramas</h1>
+                <p class="p-card">
+                    Manejamos bajo pedido dioramas cinematográficos, realizados con técnicas de modelado y mezcla de impresión 3d, mejorada manualmente cuando es de filamento y con pintura acrílica directa y con aerógrafo.
+                </p>
+                <a href="" class="anchor-card">
+                    <div class="btn-card" id="btn-diorama">
+                        <p class="p-btn-card">Ver mas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-card" id="printer-card">
+                <div class="img-card">
+                    <img src="assets/images/impresora3d.png" alt="" class="image-card">
+                </div>
+                <h1 class="title-card">Impresion 3D</h1>
+                <p class="p-card">
+                    También bajo pedido realizamos figuras a gusto del cliente, se entregan pintadas y orgánicas. Esta puede variar entre impresión de filamento y resina.
+                </p>
+                <a href="" class="anchor-card">
+                    <div class="btn-card" id="btn-3d">
+                        <p class="p-btn-card">Ver mas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-card" id="fuente-card">
+                <div class="img-card">
+                    <img src="assets/images/fuentedeagua.png" alt="" class="image-card">
+                </div>
+                <h1 class="title-card">Fuentes</h1>
+                <p class="p-card">
+                    Realización completamente artesana, con mezcla de plantas vivas y tipo peceras. Todo es bajo pedido y con el 60% de anticipo sobre la pieza o piezas solicitadas, de acuerdo a cotización confirmada.
+                </p>
+                <a href="" class="anchor-card">
+                    <div class="btn-card" id="btn-fuente">
+                        <p class="p-btn-card">Ver mas</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="ctrls-carousel">
+            <span class="ctrl activo"></span>
+            <span class="ctrl "></span>
+            <span class="ctrl "></span>
+        </div>
+    </section>
+</body>
+<script src="js/menu/menu.js"></script>
+<script src="js/carousel/carousel.js"></script>
+</html>

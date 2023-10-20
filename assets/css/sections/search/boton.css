@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .btn-search {
+        height: 30px;
+        background-color: var(--coloruno);
+        border-radius: 0 10px 10px 0;
+        display: grid;
+        justify-items: center;
+        align-content: center;
+    }
+    .i-search {
+        color: var(--colorcinco);
+    }
+    .btn-search:hover {
+        background-color: var(--colorunooscuro);
+    }
+    .i-search:hover {
+        font-size: larger;
+        transition: all 0.2s linear;
+    }
+}

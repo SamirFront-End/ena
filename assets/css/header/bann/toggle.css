@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .toggle {
+        display: flex;
+        flex-direction: column;
+    }
+    .togg {
+        background-color: var(--colorcinco);
+        width: 24px;
+        height: 3px;
+        border-radius: 2px;
+        margin: 3px;
+        transform-origin: 4px 0.5px;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+    }
+    .close .togg {
+        transform: rotate(45deg) translate(6px, 2px);
+    }
+    .close .togg:nth-child(2) {
+        transform: translateX(-500%);
+    }
+    .close .togg:nth-child(3){
+        transform: rotate(-45deg) translate(2px, 0px);
+    }
+    .open {
+        transform: translateX(0)
+    }
+    .toggle:hover {
+        cursor: pointer;
+    }
+}

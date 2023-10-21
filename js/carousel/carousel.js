@@ -27,8 +27,8 @@ function autoSlide() {
 }
 
 const interval = setInterval(autoSlide, 5000);
-ctrl.forEach((control, i) => {
-    ctrl[i].addEventListener('click', () => {
-        clearInterval(interval);
-    });
-});
+// ctrl.forEach((control, i) => {
+//     ctrl[i].addEventListener('click', () => {
+//         clearInterval(interval);
+//     });
+// });

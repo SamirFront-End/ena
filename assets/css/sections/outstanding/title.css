@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .title-outstanding {
+        width: 90%;
+        margin: 20px auto;
+        color: var(--colorcuatro);
+        font-family: var(--fuentesecundaria);
+        font-size: xx-large;
+    }
+}

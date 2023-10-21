@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .card {
+        margin: 20px 0;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    }
+    .img-card-outstanding {
+        display: grid;
+        justify-items: center;
+    }
+    .image-card {
+        width: 100%;
+    }
+    .description {
+        background-color: var(--colorcinco);
+    }
+    .card-title, .precio {
+        width: 100%;
+        margin: 0;
+        color: var(--colorcuatro);
+        font-family: var(--fuenteprincipal);
+    }
+    .anchor-card {
+        color: var(--colorcuatro);
+        font-family: var(--fuenteterciaria);
+        font-weight: bolder;
+    }
+    .more {
+        font-weight: bolder;
+    }
+    .footer-card {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-items: center;
+    }
+    #dioramas-card {
+        background-color: var(--coloruno);
+    }
+    #card-3d {
+        background-color: var(--colortres);
+    }
+    #fuente-card {
+        background-color: var(--colordos);
+    }
+}

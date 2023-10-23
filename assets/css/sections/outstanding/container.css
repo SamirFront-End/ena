@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .cards-container {
-        margin: auto;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: space-evenly;

@@ -1,9 +1,12 @@
 @media (max-width: 768px) {
     .title-outstanding {
         width: 90%;
-        margin: 20px auto;
+        margin: auto;
         color: var(--colorcuatro);
         font-family: var(--fuentesecundaria);
         font-size: xx-large;
+    }
+    .outs-icon, .ofert-icon, .news-icon {
+        margin-top: 20px;
     }
 }

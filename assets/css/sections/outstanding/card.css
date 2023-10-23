@@ -1,21 +1,29 @@
 @media (max-width: 768px) {
     .card {
-        margin: 20px 0;
+        margin: 10px 0;
         box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
     }
     .img-card-outstanding {
         display: grid;
         justify-items: center;
+        position: relative;
     }
     .image-card {
         width: 100%;
     }
     .description {
         background-color: var(--colorcinco);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        opacity: 0.8;
+    }
+    .description:hover {
+        opacity: 1;
     }
     .card-title, .precio {
         width: 100%;
-        margin: 0;
+        margin: 5px 0;
         color: var(--colorcuatro);
         font-family: var(--fuenteprincipal);
     }
@@ -26,19 +34,35 @@
     }
     .more {
         font-weight: bolder;
+        font-size: larger;
+        background-color: yellow;
+        border-radius: 20px;
     }
     .footer-card {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         justify-items: center;
+        font-size: larger;
     }
+    .a-icon-footer {
+        text-decoration: none;
+        color: var(--colorcuatro);
+    }
+    .heart, .car, .msg, .view {
+        margin: 5px 0;
+    }
+    .heart:hover, .car:hover, .msg:hover, .view:hover {
+        transition: all 350ms ease;
+        font-size: medium;
+        color: var(--colorcinco);
+    } 
     #dioramas-card {
         background-color: var(--coloruno);
     }
     #card-3d {
         background-color: var(--colortres);
     }
-    #fuente-card {
+    #fuentes-card {
         background-color: var(--colordos);
     }
 }

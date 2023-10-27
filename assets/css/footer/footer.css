@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    footer {
+        background-image: url(../../images/footer.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+    }
+    .footer-img {
+        display: grid;
+        justify-items: center;
+        width: 80%;
+        margin: auto;
+        border-bottom: 1px solid var(--colorcinco);
+    }
+    .img-footer {
+        width: 70%;
+    }
+}

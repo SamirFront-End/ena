@@ -15,4 +15,69 @@
     .img-footer {
         width: 70%;
     }
+    .footer-menu, .footer-query {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--colorcinco);
+    }
+    .footer-link {
+        text-decoration: none;
+        margin: 5px;
+        font-family: var(--fuentesecundaria);
+        color: var(--colorcinco);
+    }
+    .footer-contact {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        border-bottom: 1px solid var(--colorcinco);
+    }
+    .icon-footer-contact {
+        color: var(--colorcinco);
+        font-size: larger;
+    }
+    .footer-email, .footer-form {
+        text-decoration: none;
+        color: var(--colorcinco);
+        margin-left: 5px;
+        font-family: var(--fuenteterciaria);
+    }
+    .footer-contact-location, .follow-footer-title {
+        color: var(--colorcinco);
+        font-family: var(--fuenteterciaria);
+    }
+    .follow-footer-title {
+        margin-top: 30px;
+    }
+    .footer-follow {
+        width: 80%;
+        margin: 0 auto 15px auto;
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        justify-content: space-evenly;
+    }
+    .a-icons-footer-follow {
+        text-decoration: none;
+    }
+    .icons-footer-networks {
+        font-size: xxx-large;
+        color: var(--colorcinco);
+    }
+    .p-footer {
+        margin: 5px;
+        text-align: center;
+        color: var(--colorcinco);
+        font-family: var(--fuenteterciaria);
+        font-size: smaller;
+    }
+    .footer-link:hover, .footer-email:hover, .footer-form:hover {
+        color: var(--coloruno);
+    }
+    .icons-footer-networks:hover {
+        color: var(--coloruno);
+    }
 }

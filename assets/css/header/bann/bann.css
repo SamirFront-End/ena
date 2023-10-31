@@ -1,5 +1,12 @@
+.bann {
+    display: grid;
+    grid-template-columns: 33% 56% 10%;
+    justify-content: space-between;
+}
+
 @media (max-width: 768px) {
     .bann {
         position: relative;
+        display: block !important;
     }
 }

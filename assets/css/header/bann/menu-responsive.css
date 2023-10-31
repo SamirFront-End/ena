@@ -1,3 +1,6 @@
+/* .menu-responsive {
+    background-color: green;
+} */
 @media (max-width: 768px) {
     .menu-responsive {
         position: absolute;

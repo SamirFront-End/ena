@@ -1,3 +1,25 @@
+.carousel-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: space-evenly;
+}
+#diorama-card {
+    background-color: var(--colorfondomaiz);
+}
+#printer-card {
+    background-color: var(--colorfondonaranja);
+}
+#fuente-card {
+    background-color: var(--colorfondogranate);
+}
+.carousel-card {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+}
 @media (max-width: 768px) {
     .carousel-container {
         position: relative;
@@ -7,19 +29,5 @@
         justify-content: space-evenly;
         transition: all .5s ease;
         transform: translateX(0%);
-    }
-    #diorama-card {
-        background-color: var(--colorfondomaiz);
-    }
-    #printer-card {
-        background-color: var(--colorfondonaranja);
-    }
-    #fuente-card {
-        background-color: var(--colorfondogranate);
-    }
-    .carousel-card {
-        width: 90%;
-        margin: 0 auto;
-        box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
     }
 }

@@ -1,10 +1,11 @@
+.img-card {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+.image-card {
+    width: 90%;
+}
 @media (max-width: 768px) {
-    .img-card {
-        display: grid;
-        justify-items: center;
-        align-content: center;
-    }
-    .image-card {
-        width: 90%;
-    }
+    
 }

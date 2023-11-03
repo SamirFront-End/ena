@@ -14,7 +14,7 @@
     color: var(--colorcinco);
 }
 .link:hover {
-    color: var(--colorunooscuro);
+    /* color: var(--colordososcuro); */
     font-weight: bolder;
 }
 @media (max-width: 768px) {

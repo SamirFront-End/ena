@@ -4,9 +4,57 @@ header {
     background-size: cover;
     width: 100%;
     height: 500px;
+    position: relative;
+}
+.call-action-container {
+    width: 90%;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+}
+.title-call-action {
+    font-family: var(--fuenteprincipal);
+    color: var(--colorcinco);
+    font-size: xxx-large;
+}
+.search-container-call-action {
+    display: flex;
+    width: 50%;
+    height: 40px;
+}
+.call-action-search {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font-family: var(--fuenteterciaria);
+    font-size: large;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+}
+.call-action-search:focus {
+    border: 1px solid var(--coloruno);
+    outline: none;
+}
+.btn-call-action {
+    width: 20%;
+    height: 42px;
+    border: none;
+    background-color: var(--coloruno);
+    color: var(--colorcinco);
+    font-family: var(--fuentesecundaria);
+    font-size: 120%;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+}
+.btn-call-action:hover {
+    background-color: var(--colorunooscuro);
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     header {
         height: 100%;
+    }
+    .call-action-container {
+        display: none;
     }
 }

@@ -1,5 +1,3 @@
-
-
 const carouselCont = document.querySelector('.carousel-container');
 const ctrl = document.querySelectorAll('.ctrl');
 let currentIndex = 0;

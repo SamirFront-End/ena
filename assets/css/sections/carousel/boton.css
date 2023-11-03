@@ -1,38 +1,39 @@
+.anchor-card {
+    text-decoration: none;
+}
+.btn-card {
+    width: 40%;
+    margin: 20px auto;
+    height: 8%;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+.p-btn-card {
+    width: 90%;
+    text-align: center;
+    color: var(--colorcinco);
+    font-family: var(--fuentesecundaria);
+    font-size: larger;
+}
+#btn-diorama {
+    background-color: var(--coloruno);
+}
+#btn-3d {
+    background-color: var(--colortres);
+}
+#btn-fuente {
+    background-color: var(--colordos);
+}
+#btn-diorama:hover {
+    background-color: var(--colorunooscuro);
+}
+#btn-3d:hover {
+    background-color: var(--colortresoscuro);
+}
+#btn-fuente:hover {
+    background-color: var(--colordososcuro);
+}
 @media (max-width: 768px) {
-    .anchor-card {
-        text-decoration: none;
-    }
-    .btn-card {
-        width: 40%;
-        margin: 20px auto;
-        height: 8%;
-        display: grid;
-        justify-items: center;
-        align-content: center;
-    }
-    .p-btn-card {
-        width: 90%;
-        text-align: center;
-        color: var(--colorcinco);
-        font-family: var(--fuentesecundaria);
-        font-size: larger;
-    }
-    #btn-diorama {
-        background-color: var(--coloruno);
-    }
-    #btn-3d {
-        background-color: var(--colortres);
-    }
-    #btn-fuente {
-        background-color: var(--colordos);
-    }
-    #btn-diorama:hover {
-        background-color: var(--colorunooscuro);
-    }
-    #btn-3d:hover {
-        background-color: var(--colortresoscuro);
-    }
-    #btn-fuente:hover {
-        background-color: var(--colordososcuro);
-    }
+    
 }

@@ -1,6 +1,9 @@
+.search {
+    display: none;
+}
 @media (max-width: 768px) {
     .search {
+        display: block;
         background-color: var(--colorfondomaiz);
-        
     }
 }

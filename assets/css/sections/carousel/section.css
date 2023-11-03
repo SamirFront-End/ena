@@ -1,12 +1,13 @@
+
+.carousel-title {
+    color: var(--colorcuatro);
+    font-family: var(--fuentesecundaria);
+    font-size: xx-large;
+    text-align: center;
+}
 @media (max-width: 768px) {
     .carousel {
         max-width: 100%;
         overflow: hidden;
-    }
-    .carousel-title {
-        color: var(--colorcuatro);
-        font-family: var(--fuentesecundaria);
-        font-size: xx-large;
-        text-align: center;
     }
 }

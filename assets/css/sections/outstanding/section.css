@@ -1,11 +1,12 @@
+#outs {
+    background-color: var(--colorfondomaiz);
+}
+#ofert {
+    background-color: var(--colorfondonaranja);
+}
+#new {
+    background-color: var(--colorfondogranate);
+}
 @media (max-width: 768px) {
-    #outs {
-        background-color: var(--colorfondomaiz);
-    }
-    #ofert {
-        background-color: var(--colorfondonaranja);
-    }
-    #new {
-        background-color: var(--colorfondogranate);
-    }
+    
 }

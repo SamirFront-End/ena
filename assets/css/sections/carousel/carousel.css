@@ -1,5 +1,4 @@
 .carousel-container {
-    position: relative;
     width: 90%;
     margin: auto;
     display: grid;
@@ -24,9 +23,6 @@
     .carousel-container {
         position: relative;
         width: 300%;
-        display: grid;
-        grid-template-columns: 33.3% 33.3% 33.3%;
-        justify-content: space-evenly;
         transition: all .5s ease;
         transform: translateX(0%);
     }

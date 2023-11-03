@@ -1,6 +1,100 @@
+footer {
+    background-image: url(../../images/footer.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    /* padding-top: 50px; */
+}
+.footer-img {
+    /* background-color: blue; */
+    display: grid;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid var(--colorcinco);
+}
+.img-footer {
+    width: 30%;
+}
+.footer-container-contacts {
+    /* background-color: blue; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-menu, .footer-query {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+.footer-link {
+    text-decoration: none;
+    margin: 5px;
+    font-family: var(--fuentesecundaria);
+    color: var(--colorcinco);
+}
+.footer-contact {
+    width: 100%;
+    margin: auto;
+}
+.icon-footer-contact {
+    color: var(--colorcinco);
+    font-size: larger;
+}
+.footer-email, .footer-form {
+    text-decoration: none;
+    color: var(--colorcinco);
+    margin-left: 5px;
+    font-family: var(--fuenteterciaria);
+}
+.footer-contact-location, .follow-footer-title {
+    color: var(--colorcinco);
+    font-family: var(--fuenteterciaria);
+}
+.footer-follow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+.a-icons-footer-follow {
+    text-decoration: none;
+    width: 50%;
+}
+.icons-footer-networks {
+    font-size: xxx-large;
+    color: var(--colorcinco);
+}
+.subfooter {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid var(--colorcinco);
+}
+.p-footer-autor {
+    margin: 10px;
+    text-align: center;
+    color: var(--colorcinco);
+    font-family: var(--fuenteterciaria);
+    font-size: smaller;
+}
+.p-footer-year {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--colorcinco);
+    font-family: var(--fuenteterciaria);
+    font-size: smaller;
+}
+.footer-link:hover, .footer-email:hover, .footer-form:hover {
+    color: var(--coloruno);
+}
+.icons-footer-networks:hover {
+    color: var(--coloruno);
+}
 @media (max-width: 768px) {
     footer {
-        background-image: url(../../images/footer.svg);
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 50px;
@@ -15,40 +109,19 @@
     .img-footer {
         width: 70%;
     }
+    .footer-container-contacts {
+        display: block;
+    }
     .footer-menu, .footer-query {
         width: 80%;
         margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
+        border-right: 0px;
         border-bottom: 1px solid var(--colorcinco);
-    }
-    .footer-link {
-        text-decoration: none;
-        margin: 5px;
-        font-family: var(--fuentesecundaria);
-        color: var(--colorcinco);
     }
     .footer-contact {
         width: 80%;
-        margin: auto;
         text-align: center;
         border-bottom: 1px solid var(--colorcinco);
-    }
-    .icon-footer-contact {
-        color: var(--colorcinco);
-        font-size: larger;
-    }
-    .footer-email, .footer-form {
-        text-decoration: none;
-        color: var(--colorcinco);
-        margin-left: 5px;
-        font-family: var(--fuenteterciaria);
-    }
-    .footer-contact-location, .follow-footer-title {
-        color: var(--colorcinco);
-        font-family: var(--fuenteterciaria);
     }
     .follow-footer-title {
         margin-top: 30px;
@@ -56,28 +129,11 @@
     .footer-follow {
         width: 80%;
         margin: 0 auto 15px auto;
-        display: grid;
         grid-template-columns: 20% 20% 20%;
         justify-content: space-evenly;
     }
-    .a-icons-footer-follow {
-        text-decoration: none;
-    }
-    .icons-footer-networks {
-        font-size: xxx-large;
-        color: var(--colorcinco);
-    }
-    .p-footer {
-        margin: 5px;
-        text-align: center;
-        color: var(--colorcinco);
-        font-family: var(--fuenteterciaria);
-        font-size: smaller;
-    }
-    .footer-link:hover, .footer-email:hover, .footer-form:hover {
-        color: var(--coloruno);
-    }
-    .icons-footer-networks:hover {
-        color: var(--coloruno);
+    .subfooter {
+        margin: auto;
+        border-top: 0;
     }
 }

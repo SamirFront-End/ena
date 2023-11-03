@@ -1,4 +1,6 @@
-
+.carousel{
+    margin-bottom: 40px;
+}
 .carousel-title {
     color: var(--colorcuatro);
     font-family: var(--fuentesecundaria);
@@ -9,5 +11,6 @@
     .carousel {
         max-width: 100%;
         overflow: hidden;
+        margin-bottom: 0;
     }
 }

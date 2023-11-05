@@ -1,0 +1,92 @@
+
+
+@media (max-width: 768px) {
+    .modal {
+        background-color: rgba(255, 209, 128, 0.5);
+        position: fixed;
+        z-index: 1;
+        top: 0;
+    }
+    .modal-container {
+        background-color: var(--colorcinco);
+        width: 90%;
+        margin: 15% auto;
+        position: relative;
+    }
+    .close-form-login {
+        color: var(--colortresoscuro);
+        /* font-weight: bolder; */
+        font-size: x-large;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
+    .close-form-login:hover {
+        color: var(--colortres);
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .header-form {
+        background-image: url(../../../images/Cloudy.svg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 250px;
+        display: grid;
+        justify-items: center;
+    }
+    .image-header-form {
+        width: 20%;
+        margin-top: 40px;
+    }
+    .input-form {
+        position: relative;
+        display: grid;
+        align-items: center;
+        width: 90%;
+        height: 25px;
+        margin: 20px auto;
+    }
+    .inp-form {
+        height: 20px;
+        border: none;
+        border-bottom: 1px solid var(--colorcuatro);
+    }
+    .container-lbl-frm {
+        width: 100%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+    .lbl-form {
+        /* position: absolute; */
+        font-family: var(--fuenteterciaria);
+        /* background-color: blue; */
+    }
+    .btn-form {
+        display: grid;
+        justify-content: center;
+    }
+    .btn-form-login {
+        margin: 20px 0;
+        border: none;
+        padding: 15px;
+        color: var(--colorcinco);
+        font-family: var(--fuenteterciaria);
+        background-color: var(--colortres);
+    }
+    .btn-form-login:hover {
+        background-color: var(--colortresoscuro);
+        cursor: pointer;
+    }
+    .footer {
+        padding-bottom: 20px;
+    }
+    .login-join-up, .login-remember {
+        font-family: var(--fuenteterciaria);
+        text-align: center;
+        margin: 5px 10px;
+    }
+    .login-here-join , .login-remember-here {
+        font-weight: bolder;
+    }
+}

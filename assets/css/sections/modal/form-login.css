@@ -2,7 +2,7 @@
 
 @media (max-width: 768px) {
     .modal {
-        background-color: rgba(255, 209, 128, 0.5);
+        background-color: rgba(255, 209, 128, 0.6);
         position: fixed;
         z-index: 1;
         top: 0;
@@ -15,7 +15,6 @@
     }
     .close-form-login {
         color: var(--colortresoscuro);
-        /* font-weight: bolder; */
         font-size: x-large;
         position: absolute;
         top: -10px;
@@ -44,23 +43,30 @@
         align-items: center;
         width: 90%;
         height: 25px;
-        margin: 20px auto;
+        margin: 30px auto;
+        box-sizing: border-box;
     }
     .inp-form {
         height: 20px;
+        height: 30px;
         border: none;
         border-bottom: 1px solid var(--colorcuatro);
+        font-family: var(--fuenteterciaria);
+    }
+    .inp-form:focus {
+        outline: none;
     }
     .container-lbl-frm {
         width: 100%;
+        bottom: -4px;
         position: absolute;
         display: grid;
         grid-template-columns: 90% 10%;
     }
     .lbl-form {
-        /* position: absolute; */
-        font-family: var(--fuenteterciaria);
-        /* background-color: blue; */
+        position: relative;
+        top: 5px;
+        left: 2px;
     }
     .btn-form {
         display: grid;

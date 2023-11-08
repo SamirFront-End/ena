@@ -29,7 +29,9 @@
     grid-template-columns: 50% 50%;
     margin: 10px;
 }
-
+.title-description {
+    margin-bottom: 10px;
+}
 .card-title, .precio {
     width: 100%;
     margin: 5px 0;

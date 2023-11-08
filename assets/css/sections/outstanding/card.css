@@ -29,11 +29,13 @@
     grid-template-columns: 50% 50%;
     margin: 10px;
 }
+
 .card-title, .precio {
     width: 100%;
     margin: 5px 0;
     color: var(--colorcuatro);
     font-family: var(--fuenteprincipal);
+    text-align: center;
 }
 .btn-buy {
     background-color: var(--colortres);

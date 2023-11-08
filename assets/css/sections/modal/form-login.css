@@ -107,9 +107,15 @@
     font-weight: bolder;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .modal-container {
         width: 85%;
+        margin: 15% auto 100% auto;
+    }
+}
+@media (min-width:768px ) and (max-width: 991px) {
+    .modal-container {
+        width: 55%;
         margin: 15% auto 100% auto;
     }
 }

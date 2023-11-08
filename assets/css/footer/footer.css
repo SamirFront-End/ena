@@ -1,11 +1,8 @@
 footer {
     background-image: url(../../images/footer.svg);
-    /* background-size: cover; */
     background-repeat: no-repeat;
-    /* padding-top: 50px; */
 }
 .footer-img {
-    /* background-color: blue; */
     display: grid;
     justify-items: center;
     width: 80%;
@@ -16,7 +13,6 @@ footer {
     width: 30%;
 }
 .footer-container-contacts {
-    /* background-color: blue; */
     width: 90%;
     margin: auto;
     display: grid;

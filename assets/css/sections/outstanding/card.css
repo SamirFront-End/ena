@@ -24,7 +24,6 @@
     opacity: 1;
 }
 .footer-description {
-    /* background-color: salmon; */
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 10px;
@@ -41,26 +40,28 @@
 }
 .btn-buy {
     background-color: var(--colortres);
+    width: 50%;
     padding: 0.1px 0;
     border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .btn-buy:hover {
     background-color: var(--colortresoscuro);
 }
-.p-buy {
-    text-align: center;
+.container-i-buy {
+    width: 50%;
+}
+.fa-basket-shopping {
     color: var(--colorcinco);
 }
 .anchor-card {
     color: var(--colorcuatro);
     font-family: var(--fuenteterciaria);
     font-weight: bolder;
-}
-.more {
-    font-weight: bolder;
-    font-size: larger;
-    background-color: yellow;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 .footer-card {
     position: static;

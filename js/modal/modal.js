@@ -7,7 +7,6 @@ openModalLogin.addEventListener ('click', (e) => {
     modalElement.classList.add("show");
 });
 
-closeModalLogin.addEventListener ('click', (e) => {
-    e.preventDefault;
+closeModalLogin.addEventListener ('click', () => {
     modalElement.classList.remove("show");
 });

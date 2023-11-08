@@ -23,11 +23,29 @@
 .description:hover {
     opacity: 1;
 }
+.footer-description {
+    /* background-color: salmon; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+}
 .card-title, .precio {
     width: 100%;
     margin: 5px 0;
     color: var(--colorcuatro);
     font-family: var(--fuenteprincipal);
+}
+.btn-buy {
+    background-color: var(--colortres);
+    padding: 0.1px 0;
+    border-radius: 5px;
+}
+.btn-buy:hover {
+    background-color: var(--colortresoscuro);
+}
+.p-buy {
+    text-align: center;
+    color: var(--colorcinco);
 }
 .anchor-card {
     color: var(--colorcuatro);
